@@ -1,0 +1,11 @@
+.navBar {
+    display: flex;
+    flex-direction: column;
+}
+
+.navBarElem {
+    border: 1px solid teal;
+    color: teal;
+    margin: 5px 5px;
+    padding: 3px;
+}

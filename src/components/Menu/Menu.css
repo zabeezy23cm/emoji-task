@@ -1,0 +1,18 @@
+.parent {
+    display: flex;
+    border: 1px dashed black;
+    height: 200px;
+}
+
+.firstChild {
+    padding: 0;
+
+    width: 10%;
+    box-sizing: border-box;
+}
+
+.secondChild {
+    border: 1px dashed green;
+    width: 90%;
+    box-sizing: border-box;
+}

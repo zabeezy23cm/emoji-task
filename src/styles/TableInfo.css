@@ -1,0 +1,13 @@
+.tableParent {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.tableChild {
+    border: 1px solid red;
+    box-sizing: border-box;
+    margin-bottom: 3px;
+    height: 33%;
+}
