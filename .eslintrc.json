@@ -4,8 +4,8 @@
         "es2021": true
     },
     "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+        "airbnb"
     ],
     "overrides": [
     ],
@@ -17,21 +17,22 @@
         "react"
     ],
     "rules": {
-        "indent": [
-            "error",
-            2
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            "error",
-            "single"
-        ],
         "semi": [
             "error",
             "never"
-        ]
+        ],
+        "react/react-in-jsx-scope": "off",
+        "jsx-quotes": [
+            "warn",
+            "prefer-single"
+        ],
+        "quotes": [
+            "warn",
+            "single"
+        ],
+        "react/function-component-definition": ["warn", {
+            "namedComponents": "arrow-function",
+            "unnamedComponents": "arrow-function"
+        }]
     }
 }
