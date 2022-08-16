@@ -10,8 +10,6 @@ const Index = () => {
         <NavBar/>
       </div>
       <div className='secondChild'>
-        <h1>Artem gay</h1>
-        <h2>Eslint gay</h2>
         <TableInfo/>
       </div>
     </div>
