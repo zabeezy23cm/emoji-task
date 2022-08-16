@@ -1,11 +1,8 @@
 import './App.css'
-import Index from './components/Menu'
-import React from 'react'
+import Menu from './components/Menu'
 
-function App() {
-  return (
-    <Index/>
-  )
-}
+const App = () => (
+  <Menu />
+)
 
 export default App
